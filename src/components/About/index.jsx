@@ -12,7 +12,7 @@ const About = () => {
             <div className="container about-container">
                 <div className="about-me">
                     <div className="about-me-image">
-                        <img src={Me} alt="About Image" />
+                        <img src={Me} alt="About me" />
                     </div>
                 </div>
                 <div className="about-content">
@@ -42,7 +42,11 @@ const About = () => {
                         cumque ratione odio. Mollitia doloribus, et dolor
                         praesentium perferendis ab!
                     </p>
-                    <a href="#contact" className="btn btn-primary">
+                    <a
+                        href="#contact"
+                        className="btn btn-primary"
+                        rel="noopener noreferrer"
+                    >
                         Let's a Talk
                     </a>
                 </div>
